@@ -13,4 +13,27 @@ body {
 
 .wrapper {
     width: 400px;
+    border: 1px solid red;
+    margin-top: 4rem;
+    background-color: black;
+    color: white;
+}   
+
+.calc-button-row {
+    border: 1px solid blue;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
+
+
+
+.screen {
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 5px;
+    font-size: 40px;
+
+
+}
+  
