@@ -13,8 +13,8 @@ body {
 
 .wrapper {
     width: 400px;
-    border: 1px solid red;
     margin-top: 4rem;
+    margin-left: 4rem;
     background-color: black;
     color: white;
 }   
@@ -58,6 +58,15 @@ body {
 
 .triple {
     flex-basis: 74.8%;
+}
+
+.calc-button:last-child {
+    background-color: #df974c ;
+    color:  white;
+}
+
+.calc-button:last-child:hover {
+    background-color: #dfb07e;
 }
 
 
